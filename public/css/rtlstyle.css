@@ -1,0 +1,74 @@
+:root {
+    --offcanvas-width: 270px;
+    --topsidbarnav: 56px;
+}
+
+.sidebar-nav {
+    width: var(--offcanvas-width);
+}
+.sidebar-link{
+    display: flex;
+    align-items: flex-end;
+}
+.sidebar-link .right-icon{
+    display: inline-flex;
+    transition: all ease 0.25s;
+}
+.sidebar-link[aria-expanded="true"] .right-icon{
+ transform: rotate(180deg);
+}
+.image-upload {
+    position:relative;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+  }
+ .image-upload #file {
+      display: none;
+  }
+#uploadBtn{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: 0;
+}
+.imghov:hover #uploadBtn{
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    body{
+        overflow: auto !important;
+    }
+    main{
+        margin-right: var(--offcanvas-width);
+    }
+    .sidebar-nav{
+        transform: none;
+        visibility: visible !important;
+        top: var(--topsidbarnav);
+        height: calc(100% - var(--topsidbarnav));
+    }
+}
+.carousel-item {
+    height: 450px;
+}      
+.carousel-image-1 {
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background-size: cover;
+}

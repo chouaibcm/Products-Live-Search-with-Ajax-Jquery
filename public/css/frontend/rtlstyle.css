@@ -1,0 +1,117 @@
+
+.navbar {
+    position: relative;
+    /* box-shadow: 2px 2px 5px #3292a6; */
+    background: #fff; }
+    .navbar .nav-item {
+      font-size: 1.2rem;
+      padding-left: 1rem; }
+
+      
+#shop-bar {
+    padding: 5px;
+    background: #333;
+    color: #fff;
+}
+
+.cat-card {
+  margin-top: -70px;
+  box-shadow: 2px 2px 5px #4e4e4eb7;
+ }
+ .product-card:hover{
+    box-shadow: 2px 2px 10px #4e4e4eb7;
+ }
+
+      .carousel-item {
+        height: 650px;
+    }      
+.carousel-image-1 {
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background-size: cover;
+}
+.cartcho{
+    position: absolute;
+    right: 73%;
+    top: 25%;
+    display: inline-flex;
+}
+
+#main-footer {
+    background: #000;
+    color: #fff;
+}
+#main-footer a {
+    text-decoration: none;
+    color: #fff;    
+}
+
+/* mouse over link */
+#main-footer a:hover {
+    color: gainsboro;
+}
+
+.product-card:hover{
+    box-shadow: 2px 2px 10px #4e4e4eb7;
+ }
+
+ .product-card a:hover{ 
+    color: rgb(184, 10, 10); }
+
+    .card a {
+        text-decoration: none;
+        color: black;
+    }
+    #mrlcho{     
+        margin-left: 50px; 
+        margin-right: 50px;
+    }
+    #mlcho{
+        margin-right: 50px;
+    }
+    .bi.bi-star-half {
+        color: #e52;
+    }
+
+    .bi.bi-star {
+        color: #e52;
+    }
+    .bi.bi-star-fill{
+        color: #e52;
+    }
+
+    /* image rounded */
+    .image-upload {
+        position:relative;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid grey;
+        margin-top: -50px;
+      }
+     .image-upload #file {
+          display: none;
+      }
+    #uploadBtn{
+        height: 40px;
+        width: 200px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        text-align: center;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.7);
+        color: wheat;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    .imghov:hover #uploadBtn{
+        opacity: 1;
+    }
+    /* -----------------------  */
